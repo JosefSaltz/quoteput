@@ -1,0 +1,47 @@
+$dark-green: rgb(3, 34, 31);
+$skobeloff: #037171;
+$persian-green: #009F93;
+$amazonite-dark: #00B9AE;
+$amazonite-light: #02C3BD;
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  font-size: 16px;
+}
+
+.top-half {
+  background-color: $amazonite-light;
+  height: 50vh;
+  width: 100vw;
+  border: solid thin black;
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  word-wrap: break-word;
+  display: flex;
+  align-items: flex-end;
+}
+
+.top-half span {
+  width: 14em;
+
+}
+
+.bottom-half {
+  background-color: $dark-green;
+  height: 50vh;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(189, 212, 216);
+  font-size: 4rem;
+  display: flex;
+  align-items: flex-start;
+}
+

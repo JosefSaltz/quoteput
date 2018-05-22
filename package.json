@@ -1,0 +1,27 @@
+{
+  "name": "quoteput",
+  "version": "1.0.0",
+  "description": "Ad-libbing quote machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --watch scss scss/index.scss --output css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosefSaltz/quoteput.git"
+  },
+  "keywords": [
+    "quotes"
+  ],
+  "author": "Josef Saltz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JosefSaltz/quoteput/issues"
+  },
+  "homepage": "https://github.com/JosefSaltz/quoteput#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4"
+  }
+}
